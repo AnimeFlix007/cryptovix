@@ -1,0 +1,45 @@
+.app {
+  min-height: 100vh;
+}
+
+.app.dark {
+  background-color: black;
+  color: white;
+}
+
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+.banner {
+  background: url("https://wallpaperaccess.com/full/880901.png");
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 10;
+  width: 100%;
+  background: #1111;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.less {
+  color: red;
+  font-weight: 700;
+}
+
+.more {
+  color: green;
+  font-weight: 700;
+}
+
